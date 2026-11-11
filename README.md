@@ -1,14 +1,30 @@
 # AETHER//9 — Beyond the Known
 
-A responsive space-exploration concept website featuring a mission-control inspired interface, discovery destinations, mission profiles, crew disciplines, and an interactive mission planner.
+A premium, responsive **React + Vite multi-page** space exploration experience.
+
+## Pages
+- Home — editorial landing page and featured discoveries
+- Explore — searchable and filterable celestial destinations
+- Missions — mission portfolio with category filters
+- Crew — six specialist roles and team disciplines
+- Launch Planner — interactive conceptual mission brief generator
+- About — project vision, values and transparency
+
+## Stack
+React 18, Vite 6, Lucide React, custom responsive CSS.
 
 ## Run locally
-Open `index.html` in a browser. No build step or package installation is required.
+```bash
+npm install
+npm run dev
+``
 
-## Deploy
-This project is configured for GitHub Pages using GitHub Actions. Pushes to `main` publish the static site automatically.
+## Production build
+```bash
+npm run build
+npm run preview
+``
 
-## Notes
-- Built with semantic HTML, CSS and vanilla JavaScript.
-- External imagery is loaded from Unsplash; Google Fonts are loaded from Google Fonts.
-- Mission descriptions are concept content, not live telemetry or official mission-status feeds.
+Each route is a separate HTML entry point compiled by Vite. GitHub Pages deployment publishes the production `dist/` output.
+
+AETHER//9 is an independent educational concept, not an official space agency service. Mission descriptions are editorial summaries, not live telemetry.
